@@ -1,0 +1,11 @@
+{
+  "name": "generate-files",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "node generate_files.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "yamljs": "^0.3.0"
+  }
+}
