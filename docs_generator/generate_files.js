@@ -6,7 +6,7 @@ const yamlData = fs.readFileSync("./manual_schema.yaml", "utf8");
 const data = yamljs.parse(yamlData);
 
 function slugify(str) {
-  return str.toLowerCase().replace(/\s+/g, "-");
+  return str.toLowerCase().replace(/\s+/g, "-").replace(/\(|\)/g, "");
 }
 
 // Templates
