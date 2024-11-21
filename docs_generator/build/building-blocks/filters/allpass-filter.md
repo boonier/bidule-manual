@@ -1,14 +1,11 @@
 ---
-sidebar_label: "OSC Creator 2"
-sidebar_position: 1
-tag: "discrete"
+sidebar_label: "Allpass Filter"
+sidebar_position: 0
 ---
 
-# OSC Creator 2
+# Allpass Filter
 
-OSC Creator 2
-OSC Creator 2 (016 channels)
-OSC Creator 2 (032 channels)
+This is the description of the Allpass Filter file.
 
 ## Inlets
 

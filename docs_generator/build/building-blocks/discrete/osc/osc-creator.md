@@ -1,6 +1,7 @@
 ---
 sidebar_label: "OSC Creator"
 sidebar_position: 0
+tag: "discrete"
 ---
 
 # OSC Creator

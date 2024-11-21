@@ -1,14 +1,12 @@
 ---
-sidebar_label: "OSC Creator 2"
-sidebar_position: 1
+sidebar_label: "Time Delta"
+sidebar_position: 9
 tag: "discrete"
 ---
 
-# OSC Creator 2
+# Time Delta
 
-OSC Creator 2
-OSC Creator 2 (016 channels)
-OSC Creator 2 (032 channels)
+This is the description of the Time Delta file.
 
 ## Inlets
 

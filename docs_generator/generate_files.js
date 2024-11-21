@@ -48,7 +48,10 @@ function generateFilesAndFolders(
       const fileName = slugify(item.name);
       const filePath = path.join(currentPath, `${fileName}.md`);
       // tailor the content
-      const genericContent = `---\nsidebar_label: "{name}"\nsidebar_position: {index}\n---\n\n# {name}\n\n${
+
+      const genericContent = `---\nsidebar_label: "{name}"\nsidebar_position: {index}\n${
+        item.tag ? `tag: "${item.tag}"\n` : ""
+      }---\n\n# {name}\n\n${
         item.description || "This is the description of the {name} file."
       }\n\n## Inlets\n\n{tableInputs}\n\n## Outlets\n\n{tableOutputs}\n\n## Parameters\n\n- param1\n- param2\n- param3`;
       // create the file content

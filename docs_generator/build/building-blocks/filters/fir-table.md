@@ -1,14 +1,11 @@
 ---
-sidebar_label: "OSC Creator 2"
-sidebar_position: 1
-tag: "discrete"
+sidebar_label: "FIR Table"
+sidebar_position: 8
 ---
 
-# OSC Creator 2
+# FIR Table
 
-OSC Creator 2
-OSC Creator 2 (016 channels)
-OSC Creator 2 (032 channels)
+This is the description of the FIR Table file.
 
 ## Inlets
 

@@ -1,14 +1,11 @@
 ---
-sidebar_label: "OSC Creator 2"
-sidebar_position: 1
-tag: "discrete"
+sidebar_label: "Crossover Filter"
+sidebar_position: 6
 ---
 
-# OSC Creator 2
+# Crossover Filter
 
-OSC Creator 2
-OSC Creator 2 (016 channels)
-OSC Creator 2 (032 channels)
+This is the description of the Crossover Filter file.
 
 ## Inlets
 

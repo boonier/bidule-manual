@@ -1,6 +1,7 @@
 ---
 sidebar_label: "OSC Extractor"
 sidebar_position: 2
+tag: "discrete"
 ---
 
 # OSC Extractor

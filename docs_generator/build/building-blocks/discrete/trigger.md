@@ -1,14 +1,12 @@
 ---
-sidebar_label: "OSC Creator 2"
-sidebar_position: 1
+sidebar_label: "Trigger"
+sidebar_position: 10
 tag: "discrete"
 ---
 
-# OSC Creator 2
+# Trigger
 
-OSC Creator 2
-OSC Creator 2 (016 channels)
-OSC Creator 2 (032 channels)
+This is the description of the Trigger file.
 
 ## Inlets
 

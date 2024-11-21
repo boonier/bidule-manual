@@ -1,14 +1,11 @@
 ---
-sidebar_label: "OSC Creator 2"
-sidebar_position: 1
-tag: "discrete"
+sidebar_label: "Biquad Filter"
+sidebar_position: 3
 ---
 
-# OSC Creator 2
+# Biquad Filter
 
-OSC Creator 2
-OSC Creator 2 (016 channels)
-OSC Creator 2 (032 channels)
+This is the description of the Biquad Filter file.
 
 ## Inlets
 
