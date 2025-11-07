@@ -14,13 +14,13 @@ OSC Extractor 2 (016 channels)
 
 | Inlet | Values | Comments |  
 | --- | --- | --- |
-| Play Trigger | Trigger | Manually trigger or use clock |
+| tbd | tbd | tbd |
 
 ## Outlets
 
 | Outlet | Values | Comments |  
 | --- | --- | --- |
-| Audio Output L | -1, 1 | left audio output |
+| tbd | tbd | tbd |
 
 ## Parameters
 

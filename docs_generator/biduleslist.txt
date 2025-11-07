@@ -1,0 +1,606 @@
+' Building Blocks	Delay Line
+' Building Blocks	Delay Line 2
+Building Blocks	Multi-tap Delay
+' Building Blocks	Gate
+' Building Blocks	Gate Clock
+Building Blocks	Sample and Hold
+Building Blocks	Sync Creator
+Building Blocks	Sync Extractor
+Building Blocks	Trigger
+Building Blocks	Trigger Clock
+Building Blocks	Trigger To Gate
+Building Blocks	Stack
+' Building Blocks	Map
+Building Blocks	Sanitizer
+Building Blocks	Smoother
+Building Blocks	Smoother (basic)
+' Building Blocks	Gate/Trigger Divider
+' Building Blocks	Gate/Trigger Sequencer
+
+' Building Blocks	Audio File	Basic Audio Buffer
+' Building Blocks	Audio File	Audio File Player	Basic Audio File Player
+' Building Blocks	Audio File	Audio File Player	Basic Audio File Player 4 channels
+' Building Blocks	Audio File	Audio File Player	Basic Audio File Player 6 channels
+' Building Blocks	Audio File	Audio File Player	Basic Audio File Player 8 channels
+' Building Blocks	Audio File	Audio File Player	Basic Audio File Player 2
+' Building Blocks	Audio File	Audio File Player	Basic Audio File Player 2 4 channels
+' Building Blocks	Audio File	Audio File Player	Basic Audio File Player 2 6 channels
+' Building Blocks	Audio File	Audio File Player	Basic Audio File Player 2 8 channels
+' Building Blocks	Audio File	Basic Audio Buffer 2	Basic Audio Buffer 2 01
+' Building Blocks	Audio File	Basic Audio Buffer 2	Basic Audio Buffer 2 02
+' Building Blocks	Audio File	Basic Audio Buffer 2	Basic Audio Buffer 2 04
+' Building Blocks	Audio File	Basic Audio Buffer 2	Basic Audio Buffer 2 06
+' Building Blocks	Audio File	Basic Audio Buffer 2	Basic Audio Buffer 2 08
+' Building Blocks	Audio File	Basic Audio Buffer 2	Basic Audio Buffer 2 10
+' Building Blocks	Audio File	Basic Audio Buffer 2	Complex	Basic Audio Buffer 2 Ex 01
+' Building Blocks	Audio File	Basic Audio Buffer 2	Complex	Basic Audio Buffer 2 Ex 02
+' Building Blocks	Audio File	Basic Audio Buffer 2	Complex	Basic Audio Buffer 2 Ex 04
+' Building Blocks	Audio File	Basic Audio Buffer 2	Complex	Basic Audio Buffer 2 Ex 06
+' Building Blocks	Audio File	Basic Audio Buffer 2	Complex	Basic Audio Buffer 2 Ex 08
+' Building Blocks	Audio File	Basic Audio Buffer 2	Complex	Basic Audio Buffer 2 Ex 10
+
+Building Blocks	Oscillators	Basic Oscillator
+Building Blocks	Oscillators	Noise
+Building Blocks	Oscillators	Noise (trigger)
+Building Blocks	Oscillators	Random
+Building Blocks	Oscillators	Pulse
+Building Blocks	Oscillators	BLIT
+
+' Building Blocks	Math	Binary Operator
+' Building Blocks	Math	Unary Operator
+' Building Blocks	Math	Variable
+' Building Blocks	Math	Variable (Int)
+' Building Blocks	Math	Constant
+' Building Blocks	Math	Logic Gate
+' Building Blocks	Math	Binary Logic Operator
+' Building Blocks	Math	Linear Feedback Shift Register
+' Building Blocks	Math	Unit Converter
+' Building Blocks	Math	Counter
+' Building Blocks	Math	Change
+' Building Blocks	Math	Value List
+' Building Blocks	Math	Value List 2
+' Building Blocks	Math	Function
+' Building Blocks	Math	Clip
+' Building Blocks	Math	Accum
+' Building Blocks	Math	Function (Recursive)
+' Building Blocks	Math	Value List (Indexed)
+' Building Blocks	Math	Lookup Table
+' Building Blocks	Math	Lookup Table (1024)
+' Building Blocks	Math	Lookup Table (2048)
+' Building Blocks	Math	Lookup Table (4096)
+
+' Building Blocks	Mixing	CrossFader
+' Building Blocks	Mixing	FaderCross
+
+' Building Blocks	Discrete	Sync Extractor
+' Building Blocks	Discrete	Trigger
+' Building Blocks	Discrete	Discrete To Audio
+' Building Blocks	Discrete	Audio To Discrete
+' Building Blocks	Discrete	Activity
+' Building Blocks	Discrete	Time Delta
+' Building Blocks	Discrete	Delay
+' Building Blocks	Discrete	Stack
+' Building Blocks	Discrete	Math	Binary Operator
+' Building Blocks	Discrete	Math	Change
+' Building Blocks	Discrete	Math	Clip
+' Building Blocks	Discrete	Math	Constant
+' Building Blocks	Discrete	Math	Unit Converter
+' Building Blocks	Discrete	Math	Unary Operator
+' Building Blocks	Discrete	Math	Variable
+' Building Blocks	Discrete	Math	Variable (Int)
+' Building Blocks	Discrete	Math	Binary Logic Operator
+' Building Blocks	Discrete	Math	Value List
+' Building Blocks	Discrete	Math	Value List (Indexed)
+' Building Blocks	Discrete	Math	Value List 2
+' Building Blocks	Discrete	Math	Counter
+' Building Blocks	Discrete	Math	Function
+' Building Blocks	Discrete	Math	Function (Recursive)
+' Building Blocks	Discrete	MIDI	CC Creator
+' Building Blocks	Discrete	MIDI	CC Creator (Multi)
+' Building Blocks	Discrete	MIDI	CC Extractor
+' Building Blocks	Discrete	MIDI	CC Extractor (Multi)
+' Building Blocks	Discrete	MIDI	Channel Extractor
+' Building Blocks	Discrete	MIDI	Note Creator 2
+' Building Blocks	Discrete	MIDI	Note Extractor 2
+' Building Blocks	Discrete	MIDI	Aftertouch Creator
+' Building Blocks	Discrete	MIDI	Aftertouch Extractor
+' Building Blocks	Discrete	MIDI	Channel Pressure Creator
+' Building Blocks	Discrete	MIDI	Channel Pressure Extractor
+' Building Blocks	Discrete	MIDI	Message Creator
+' Building Blocks	Discrete	MIDI	Message Extractor
+' Building Blocks	Discrete	MIDI	Pitchbend Creator
+' Building Blocks	Discrete	MIDI	Pitchbend Extractor
+' Building Blocks	Discrete	MIDI	Program Change Creator
+' Building Blocks	Discrete	MIDI	Program Change Extractor
+' Building Blocks	Discrete	MIDI	Voice Counter
+' Building Blocks	Discrete	MIDI	Time Delta
+' Building Blocks	Discrete	MIDI	Note Closer
+' Building Blocks	Discrete	MIDI	MIDI Activity
+' Building Blocks	Discrete	OSC	OSC Creator
+' Building Blocks	Discrete	OSC	OSC Creator (016 channels)
+' Building Blocks	Discrete	OSC	OSC Creator (032 channels)
+' Building Blocks	Discrete	OSC	OSC Creator (064 channels)
+' Building Blocks	Discrete	OSC	OSC Creator (128 channels)
+' Building Blocks	Discrete	OSC	OSC Creator 2
+' Building Blocks	Discrete	OSC	OSC Creator 2 (016 channels)
+' Building Blocks	Discrete	OSC	OSC Creator 2 (032 channels)
+' Building Blocks	Discrete	OSC	OSC Extractor
+' Building Blocks	Discrete	OSC	OSC Extractor (016 channels)
+' Building Blocks	Discrete	OSC	OSC Extractor (032 channels)
+' Building Blocks	Discrete	OSC	OSC Extractor (064 channels)
+' Building Blocks	Discrete	OSC	OSC Extractor (128 channels)
+' Building Blocks	Discrete	OSC	OSC Extractor 2
+' Building Blocks	Discrete	OSC	OSC Extractor2 (016 channels)
+' Building Blocks	Discrete	OSC	OSC Extractor2 (032 channels)
+' Building Blocks	Envelopes	Attack Release
+' Building Blocks	Envelopes	Exponential
+' Building Blocks	Envelopes	Basic Exponential
+' Building Blocks	Envelopes	ADSR Envelope
+' Building Blocks	Envelopes	AHDSR Envelope
+' Building Blocks	Envelopes	Envelope Follower
+' Building Blocks	Envelopes	Basic ADSR
+' Building Blocks	Envelopes	Basic AHDSR
+' Building Blocks	Envelopes	Graphical (Trigger)
+' Building Blocks	Envelopes	Graphical (basic)
+' Building Blocks	Envelopes	Synced Graphical (Trigger)
+
+' Building Blocks	Filters	FIR
+' Building Blocks	Filters	FIR Table
+' Building Blocks	Filters	Biquad Filter
+' Building Blocks	Filters	Crossover Filter
+' Building Blocks	Filters	Comb Filter
+' Building Blocks	Filters	Comb Filter 2
+' Building Blocks	Filters	Allpass Filter
+' Building Blocks	Filters	Allpass Filter 2
+' Building Blocks	Filters	Basic Filter
+' Building Blocks	Filters	Ladder Filter
+' Building Blocks	Filters	Moog VCF
+
+
+Building Blocks	OSC	OSC Creator (01 channel)
+Building Blocks	OSC	OSC Creator (02 channels)
+Building Blocks	OSC	OSC Creator (04 channels)
+Building Blocks	OSC	OSC Creator
+Building Blocks	OSC	OSC Creator (16 channels)
+Building Blocks	OSC	OSC Creator (32 channels)
+Building Blocks	OSC	OSC Creator (64 channels)
+Building Blocks	OSC	OSC Creator (128 channels)
+Building Blocks	OSC	OSC Creator 2 (01 channel)
+Building Blocks	OSC	OSC Creator 2 (02 channels)
+Building Blocks	OSC	OSC Creator 2 (04 channels)
+Building Blocks	OSC	OSC Creator 2
+Building Blocks	OSC	OSC Creator 2 (16 channels)
+Building Blocks	OSC	OSC Creator 2 (32 channels)
+Building Blocks	OSC	OSC Extractor (01 channel)
+Building Blocks	OSC	OSC Extractor (02 channels)
+Building Blocks	OSC	OSC Extractor (04 channels)
+Building Blocks	OSC	OSC Extractor
+Building Blocks	OSC	OSC Extractor (16 channels)
+Building Blocks	OSC	OSC Extractor (32 channels)
+Building Blocks	OSC	OSC Extractor (64 channels)
+Building Blocks	OSC	OSC Extractor (128 channels)
+Building Blocks	OSC	OSC Extractor 2 (01 channel)
+Building Blocks	OSC	OSC Extractor 2 (02 channels)
+Building Blocks	OSC	OSC Extractor 2 (04 channels)
+Building Blocks	OSC	OSC Extractor 2
+Building Blocks	OSC	OSC Extractor 2 (16 channels)
+Building Blocks	OSC	OSC Extractor 2 (32 channels)
+Building Blocks	OSC	OSC MIDI
+
+' Building Blocks	MIDI	Note Extractor
+' Building Blocks	MIDI	Note Extractor 2
+' Building Blocks	MIDI	Note Creator
+' Building Blocks	MIDI	Note Creator 2
+' Building Blocks	MIDI	CC Creator
+' Building Blocks	MIDI	CC Creator (Multi)
+' Building Blocks	MIDI	CC Extractor
+' Building Blocks	MIDI	CC Extractor (Multi)
+' Building Blocks	MIDI	Channel Extractor
+' Building Blocks	MIDI	Basic Channel Remapper
+' Building Blocks	MIDI	Program Change Creator
+' Building Blocks	MIDI	Program Change Extractor
+' Building Blocks	MIDI	Pitchbend Creator
+' Building Blocks	MIDI	Pitchbend Extractor
+' Building Blocks	MIDI	Aftertouch Creator
+' Building Blocks	MIDI	Message Creator
+' Building Blocks	MIDI	SysEx Message Creator (08-byte)
+' Building Blocks	MIDI	SysEx Message Creator (16-byte)
+' Building Blocks	MIDI	SysEx Message Creator (32-byte)
+' Building Blocks	MIDI	Message Extractor
+' Building Blocks	MIDI	Aftertouch Extractor
+' Building Blocks	MIDI	Channel Pressure Creator
+' Building Blocks	MIDI	Channel Pressure Extractor
+' Building Blocks	MIDI	Voice Counter
+' Building Blocks	MIDI	Stack
+' Building Blocks	MIDI	Map
+' Building Blocks	MIDI	Time Delta
+' Building Blocks	MIDI	Activity
+' Building Blocks	MIDI	Note Closer
+' Building Blocks	MIDI	Gate
+' Building Blocks	MIDI	Delay
+' Building Blocks	MIDI	Arpeggiator
+' Building Blocks	MIDI	Arpeggiator (Trigger)
+' Building Blocks	MIDI	MIDI Quantizer
+' Building Blocks	MIDI	MIDI Echo
+' Building Blocks	MIDI	Transpose	Note Transpose
+' Building Blocks	MIDI	Transpose	CC Transpose
+' Building Blocks	MIDI	Transpose	Program Change Transpose
+' Building Blocks	MIDI	Transpose	Aftertouch Transpose
+
+Building Blocks	Monitoring	WaveViewer	WaveViewer 01
+Building Blocks	Monitoring	WaveViewer	WaveViewer 02
+Building Blocks	Monitoring	WaveViewer	WaveViewer 04
+Building Blocks	Monitoring	WaveViewer	WaveViewer 06
+Building Blocks	Monitoring	WaveViewer	WaveViewer 08
+Building Blocks	Monitoring	WaveViewer	WaveViewer 10
+
+MIDI	Step Sequencer
+MIDI	MIDI Clock To Sync
+MIDI	Sync To MIDI Clock
+MIDI	Particle Arpeggiator
+MIDI	Note Shuffler
+MIDI	Velocity Scaler
+MIDI	Splitter
+MIDI	Key Switch
+MIDI	MIDI To Value
+MIDI	CC Value Scaler
+MIDI	Delay
+MIDI	Delay (Synced)
+MIDI	Buffer
+MIDI	Buffer (Synced)
+MIDI	Note Latch
+MIDI	CC Latch
+MIDI	Arpeggiator 
+MIDI	MIDI Echo
+MIDI	CC Splitter
+MIDI	Note Splitter
+MIDI	Quantizer
+MIDI	Modulation	Note Velocity To Params
+MIDI	Modulation	Note Number To Param
+MIDI	Modulation	Note On To Value List
+MIDI	Modulation	Channel Pressure To Param
+MIDI	Modulation	Aftertouch To Params
+MIDI	Modulation	Program Change To Param
+MIDI	Modulation	CC To Params
+MIDI	Modulation	RPN To Params
+MIDI	Modulation	NRPN To Params
+MIDI	Modulation	Passthrough	Note Velocity To Params (Passthrough)
+MIDI	Modulation	Passthrough	Note Number To Param (Passthrough)
+MIDI	Modulation	Passthrough	Note On To Value List (Passthrough)
+MIDI	Modulation	Passthrough	Channel Pressure To Param (Passthrough)
+MIDI	Modulation	Passthrough	Aftertouch To Params (Passthrough)
+MIDI	Modulation	Passthrough	Program Change To Param (Passthrough)
+MIDI	Modulation	Passthrough	CC To Params (Passthrough)
+MIDI	Modulation	Passthrough	RPN To Params (Passthrough)
+MIDI	Modulation	Passthrough	NRPN To Params (Passthrough)
+MIDI	Transposers	Note Transposer
+MIDI	Transposers	Program Change Transposer
+MIDI	Transposers	CC Transposer
+MIDI	Transposers	Aftertouch Transposer
+MIDI File	MIDI file player (merged tracks)
+MIDI File	MIDI file player (separate 32 tracks)
+MIDI File	MIDI file player (separate 64 tracks)
+MIDI File	MIDI file looper (merged)
+MIDI File	MIDI file recorder
+MIDI	Remappers	Channel Remapper
+MIDI	Remappers	Note Remapper
+MIDI	Remappers	CC Remapper
+MIDI	Remappers	Channel Remapper (Multi)
+MIDI	Remappers	Note Remapper (Multi)
+MIDI	Remappers	CC Remapper (Multi)
+MIDI	Remappers	PC Remapper (Multi)
+MIDI	Remappers	Message Remapper (Multi)
+MIDI	Remappers	Aftertouch Remapper (Multi)
+MIDI	Remappers	Channel Pressure Remapper (Multi)
+MIDI	Remappers	CC Value Remapper
+MIDI	Remappers	Note Velocity Remapper
+MIDI	Remappers	Note Off Velocity Remapper
+MIDI	Remappers	Note Off To Note On
+MIDI	Remappers	Note On To Note Off
+MIDI	Remappers	CC Type Remapper
+MIDI	Remappers	Message to Pitchbend
+MIDI	Filters	Note Filter
+MIDI	Filters	Note Filter (Range)
+MIDI	Filters	Note Velocity Filter
+MIDI	Filters	CC Filter
+MIDI	Filters	CC Value Filter
+MIDI	Filters	Channel Filter
+MIDI	Filters	Message Filter
+MIDI	Filters	PC Filter
+MIDI	Filters	Aftertouch Filter
+MIDI	Filters	Aftertouch Pressure Filter
+MIDI	Filters	Channel Pressure Filter
+MIDI	Filters	Channel Pressure Pressure Filter
+MIDI	Filters	Pitchbend Value Filter
+MIDI	Filters	Misc Sysex Filter
+MIDI	Filters	Comparison Filter
+MIDI	Filters	Note Filter (Dynamic)
+' Audio File	Audio Buffer
+' Audio File	Boboche Looper
+' Audio File	Looper
+' Audio File	Granulator
+' Audio File	Recorder	 1 channel
+' Audio File	Recorder	 2 channels
+' Audio File	Recorder	 3 channels
+' Audio File	Recorder	 4 channels
+' Audio File	Recorder	 5 channels
+' Audio File	Recorder	 6 channels
+' Audio File	Recorder	 7 channels
+' Audio File	Recorder	 8 channels
+' Audio File	Recorder	 9 channels
+' Audio File	Recorder	10 channels
+' Audio File	Recorder	11 channels
+' Audio File	Recorder	12 channels
+' Audio File	Recorder	13 channels
+' Audio File	Recorder	14 channels
+' Audio File	Recorder	15 channels
+' Audio File	Recorder	16 channels
+' Audio File	Recorder	17 channels
+' Audio File	Recorder	18 channels
+' Audio File	Recorder	19 channels
+' Audio File	Recorder	20 channels
+' Audio File	Recorder	21 channels
+' Audio File	Recorder	22 channels
+' Audio File	Recorder	23 channels
+' Audio File	Recorder	24 channels
+' Audio File	Recorder	25 channels
+' Audio File	Recorder	26 channels
+' Audio File	Recorder	27 channels
+' Audio File	Recorder	28 channels
+' Audio File	Recorder	29 channels
+' Audio File	Recorder	30 channels
+' Audio File	Recorder	31 channels
+' Audio File	Recorder	32 channels
+' Audio File	Recorder	36 channels
+' Audio File	Recorder	40 channels
+' Audio File	Recorder	44 channels
+' Audio File	Recorder	48 channels
+' Audio File	Recorder	49 channels
+' Audio File	Recorder	64 channels
+' Audio File	Player	 1 channel
+' Audio File	Player	 2 channels
+' Audio File	Player	 3 channels
+' Audio File	Player	 4 channels
+' Audio File	Player	 5 channels
+' Audio File	Player	 6 channels
+' Audio File	Player	 7 channels
+' Audio File	Player	 8 channels
+' Audio File	Player	 9 channels
+' Audio File	Player	10 channels
+' Audio File	Player	11 channels
+' Audio File	Player	12 channels
+' Audio File	Player	13 channels
+' Audio File	Player	14 channels
+' Audio File	Player	15 channels
+' Audio File	Player	16 channels
+' Audio File	Player	17 channels
+' Audio File	Player	18 channels
+' Audio File	Player	19 channels
+' Audio File	Player	20 channels
+' Audio File	Player	21 channels
+' Audio File	Player	22 channels
+' Audio File	Player	23 channels
+' Audio File	Player	24 channels
+' Audio File	Player	25 channels
+' Audio File	Player	26 channels
+' Audio File	Player	27 channels
+' Audio File	Player	28 channels
+' Audio File	Player	29 channels
+' Audio File	Player	30 channels
+' Audio File	Player	31 channels
+' Audio File	Player	32 channels
+' Audio File	Player	36 channels
+' Audio File	Player	40 channels
+' Audio File	Player	44 channels
+' Audio File	Player	48 channels
+' Audio File	Player	49 channels
+' Audio File	Player	64 channels
+Effects	Moog VCF
+Effects	Time Domain Convolver
+Effects	Deconcrisseur
+Effects	Dither
+Effects	Buffer Granulator
+Instruments	Boboche Sampler
+Misc	Variables Multi	VariablesMulti 08
+Misc	Variables Multi	VariablesMulti 16
+Misc	Variables Multi	VariablesMulti 32
+Misc	Variables Multi	VariablesMulti 64
+Misc	Variables Multi	VariablesMulti 96
+Misc	Variables Multi	Indexed VariablesMulti 08
+Misc	Variables Multi	Indexed VariablesMulti 16
+Misc	Variables Multi	Indexed VariablesMulti 32
+Misc	Variables Multi	Indexed VariablesMulti 64
+Misc	Variables Multi	Indexed VariablesMulti 96
+Misc	Audio Dummy	002 channels
+Misc	Audio Dummy	008 channels
+Misc	Audio Dummy	016 channels
+Misc	Audio Dummy	032 channels
+Misc	Audio Dummy	064 channels
+Misc	Audio Dummy	128 channels
+Misc	Audio Dummy	Terminal	002 channels
+Misc	Audio Dummy	Terminal	008 channels
+Misc	Audio Dummy	Terminal	016 channels
+Misc	Audio Dummy	Terminal	032 channels
+Misc	Audio Dummy	Terminal	064 channels
+Misc	Audio Dummy	Terminal	128 channels
+Misc	MIDI Dummy
+Misc	MIDI Dummy (Terminal)
+Misc	HID Data Extractor (MIDI)
+Misc	Key Stroke
+Misc	Key Sender
+Misc	XY
+Misc	Sync Transport
+Misc	Clock
+Misc	Sync to DIN Sync
+Misc	Matrix Sequencer (4x4)
+Misc	Matrix Sequencer (8x8)
+Misc	MIDI Matrix Sequencer (4x4)
+Misc	MIDI Matrix Sequencer (8x8)
+Misc	Wave Folder
+Misc	Comment
+Misc	Discrete Dummy
+Misc	Discrete Dummy (Terminal)
+Mixing	Gain
+Mixing	Gain (unlimited)
+Mixing	Pan
+Mixing	Stereo Squeezer
+Mixing	Cross Fader
+Mixing	Fader Cross
+Mixing	Mono Mixer 04
+Mixing	Mono Mixer 08
+Mixing	Mono Mixer 16
+Mixing	Mono Mixer 24
+Mixing	Mono Mixer 32
+Mixing	Stereo Mixer 04
+Mixing	Stereo Mixer 08
+Mixing	Stereo Mixer 16
+Mixing	Stereo Mixer 24
+Mixing	Stereo Mixer 32
+Mixing	Multi Gain	Multi Gain 04
+Mixing	Multi Gain	Multi Gain 08
+Mixing	Multi Gain	Multi Gain 16
+Mixing	Multi Gain	Multi Gain 24
+Mixing	Multi Gain	Multi Gain 32
+Mixing	Surround	Continuous Surround Panner
+Mixing	Surround	Mono ITU Mixer 04
+Mixing	Surround	Mono ITU Mixer 08
+Mixing	Surround	Mono ITU Mixer 16
+Mixing	Surround	Mono ITU Mixer 24
+Mixing	Surround	Mono ITU Mixer 32
+Modulation	Parameter Modulator (Absolute)
+Modulation	Parameter Modulator (Absolute) Trigger
+Modulation	Parameter Modulator (Relative)
+Modulation	Parameter Modulator Passthrough (Absolute)
+Modulation	Parameter Modulator Passthrough (Absolute) Trigger
+Modulation	Parameter Modulator Passthrough (Relative)
+Modulation	Discrete	Parameter Modulator (Absolute)
+Modulation	Discrete	Parameter Modulator (Relative)
+Modulation	Discrete	Parameter Modulator Passthrough (Absolute)
+Modulation	Discrete	Parameter Modulator Passthrough (Relative)
+Monitoring	Audio Monitor
+Monitoring	Audio Stats
+Monitoring	Audio Stats (Passthrough)
+Monitoring	Level Meter
+Monitoring	MIDI Monitor
+Monitoring	MIDI Monitor2
+Monitoring	MIDI Monitor (Passthrough)
+Monitoring	MIDI Monitor2 (Passthrough)
+Monitoring	Audio Value Display
+Monitoring	Audio Value Display (Terminal)
+Monitoring	MIDI Value Display
+Monitoring	MIDI Value Display (Terminal)
+Monitoring	Discrete Monitor
+Monitoring	Discrete Value Display
+Monitoring	Discrete Value Display (Terminal)
+Monitoring	Spectral	Frequency Value Display
+Monitoring	Spectral	Frequency Value Display (Terminal)
+Monitoring	Spectral	Magnitude Value Display
+Monitoring	Spectral	Magnitude Value Display (Terminal)
+Monitoring	Spectral	Frequency Value Extractor
+Monitoring	Spectral	Frequency Value Extractor (Terminal)
+Monitoring	Spectral	Magnitude Value Extractor
+Monitoring	Spectral	Magnitude Value Extractor (Terminal)
+Monitoring	WaveViewer	WaveViewer 01
+Monitoring	WaveViewer	WaveViewer 02
+Monitoring	WaveViewer	WaveViewer 04
+Monitoring	WaveViewer	WaveViewer 06
+Monitoring	WaveViewer	WaveViewer 08
+Monitoring	WaveViewer	WaveViewer 10
+Routing	Audio Switchers	Audio Switcher
+Routing	Audio Switchers	Audio Switcher Stereo (16 outs)
+Routing	Audio Switchers	Audio Switcher (32 outs)
+Routing	Audio Switchers	Audio Switcher Stereo (32 outs)
+Routing	Audio Switchers	Audio Switcher (64 outs)
+Routing	Audio Switchers	Audio Switcher Stereo (64 outs)
+Routing	Audio Switchers	Audio Switcher (128 outs)
+Routing	Audio Switchers	Audio Switcher Stereo (128 outs)
+Routing	Audio Matrices	Audio Matrix
+Routing	Audio Matrices	Audio Matrix Stereo (08)
+Routing	Audio Matrices	Audio Matrix (16)
+Routing	Audio Matrices	Audio Matrix Stereo (16)
+Routing	Audio Matrices	Audio Matrix (32)
+Routing	Audio Matrices	Audio Matrix Stereo (32)
+Routing	Audio Matrices	Audio Matrix (64)
+Routing	Audio Matrices	Audio Matrix Stereo (64)
+Routing	Matrix Mixers	Matrix Mixer Stereo (04)
+Routing	Matrix Mixers	Matrix Mixer Mono (04)
+Routing	Matrix Mixers	Matrix Mixer Stereo (08)
+Routing	Matrix Mixers	Matrix Mixer Mono (08)
+Routing	Matrix Mixers	Matrix Mixer Stereo (16)
+Routing	Matrix Mixers	Matrix Mixer Mono (16)
+Routing	MIDI Switchers	MIDI Switcher
+Routing	MIDI Switchers	MIDI Switcher 2 ports
+Routing	MIDI Switchers	MIDI Switcher 2 ports (32 outs)
+Routing	MIDI Switchers	MIDI Switcher 2 ports (64 outs)
+Routing	MIDI Switchers	MIDI Switcher 2 ports (128 outs)
+Routing	MIDI Matrices	MIDI Matrix
+Routing	MIDI Matrices	MIDI Matrix (16)
+Routing	MIDI Matrices	MIDI Matrix (32)
+Routing	MIDI Matrices	MIDI Matrix (64)
+Routing	Discrete Matrices	Discrete Matrix (8)
+Routing	Discrete Matrices	Discrete Matrix (16)
+Routing	Discrete Matrices	Discrete Matrix (32)
+Routing	Discrete Matrices	Discrete Matrix (64)
+Routing	Audio Input Selectors	Input Selector
+Routing	Audio Input Selectors	Input Selector (16)
+Routing	Audio Input Selectors	Input Selector (32)
+Routing	Audio Input Selectors	Input Selector (64)
+Routing	Audio Input Selectors	Input Selector Stereo (8)
+Routing	Audio Input Selectors	Input Selector Stereo (16)
+Routing	Audio Input Selectors	Input Selector Stereo (32)
+Routing	Audio Input Selectors	Input Selector Stereo (64)
+Routing	Audio Output Selectors	Output Selector
+Routing	Audio Output Selectors	Output Selector (16)
+Routing	Audio Output Selectors	Output Selector (32)
+Routing	Audio Output Selectors	Output Selector (64)
+Routing	Audio Output Selectors	Output Selector Stereo (8)
+Routing	Audio Output Selectors	Output Selector Stereo (16)
+Routing	Audio Output Selectors	Output Selector Stereo (32)
+Routing	Audio Output Selectors	Output Selector Stereo (64)
+Routing	MIDI Input Selectors	MIDI Input Selector
+Routing	MIDI Input Selectors	MIDI Input Selector (16)
+Routing	MIDI Input Selectors	MIDI Input Selector (32)
+Routing	MIDI Input Selectors	MIDI Input Selector (64)
+Routing	MIDI Input Selectors	MIDI Input Selector (128)
+Routing	MIDI Output Selectors	MIDI Output Selector
+Routing	MIDI Output Selectors	MIDI Output Selector (16)
+Routing	MIDI Output Selectors	MIDI Output Selector (32)
+Routing	MIDI Output Selectors	MIDI Output Selector (64)
+Routing	MIDI Output Selectors	MIDI Output Selector (128)
+Spectral	FFT
+Spectral	iFFT
+Spectral	Pitch Scaler
+Spectral	Resynthesizer
+Spectral	CrossFader
+Spectral	Spectral To MIDI
+Spectral	Cherizer
+Spectral	Graph EQ
+Spectral	Freeze
+Spectral	File Looper
+Spectral	Graph
+Spectral	Spectral To Loudest Freq/Amp
+Spectral	Bin Delay (wrong)
+Spectral	Bin Delay
+Spectral	Sustain
+Spectral	Inverter
+Spectral	Graph Analyzer	1 channel
+Spectral	Graph Analyzer	2 channels
+Spectral	Graph Analyzer	4 channels
+Spectral	Frequency	Binary Operator
+Spectral	Frequency	Gate
+Spectral	Frequency	Buffer
+Spectral	Frequency	Shifter
+Spectral	Frequency	Stretcher
+Spectral	Frequency	Breeder
+Spectral	Frequency	Inversion
+Spectral	Frequency	Logic Gate
+Spectral	Frequency	Variable
+Spectral	Magnitude	Binary Operator
+Spectral	Magnitude	Gate
+Spectral	Magnitude	Buffer
+Spectral	Magnitude	Scaler
+Spectral	Magnitude	Shifter
+Spectral	Magnitude	Stretcher
+Spectral	Magnitude	Breeder
+Spectral	Magnitude	Logic Gate
+Spectral	Magnitude	Variable

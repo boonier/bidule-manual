@@ -5,18 +5,14 @@ const yamljs = require("yamljs");
 const yamlData = fs.readFileSync("./manual_schema.yaml", "utf8");
 const data = yamljs.parse(yamlData);
 
-function slugify(str) {
-  return str.toLowerCase().replace(/\s+/g, "-").replace(/\(|\)/g, "");
-}
-
 // Templates
 const tableInputs = `| Inlet | Values | Comments |  
 | --- | --- | --- |
-| Play Trigger | Trigger | Manually trigger or use clock |`;
+| tbd | tbd | tbd |`;
 
 const tableOutputs = `| Outlet | Values | Comments |  
 | --- | --- | --- |
-| Audio Output L | -1, 1 | left audio output |`;
+| tbd | tbd | tbd |`;
 
 // const genericContent = `---\nsidebar_label: "{name}"\nsidebar_position: {index}\n---\n\n# {name}\n\nThis is the description of the {name} file.\n\n## Inlets\n\n{tableInputs}\n\n## Outlets\n\n{tableOutputs}\n\n## Parameters\n\n- param1\n- param2\n- param3`;
 
@@ -33,6 +29,7 @@ function generateFilesAndFolders(
   }
 
   data.forEach((item, index) => {
+    // if (index) {
     if (item.type === "folder") {
       const folderName = slugify(item.name);
       const folderPath = path.join(currentPath, folderName);
@@ -43,6 +40,8 @@ function generateFilesAndFolders(
 
       if (item.contents) {
         generateFilesAndFolders(item.contents, folderPath); // Recursive call
+        // then create the _category_.json file
+        createCategoryJson(`${folderPath}/_category_.json`, item, index);
       }
     } else if (item.type === "markdown") {
       const fileName = slugify(item.name);
@@ -63,7 +62,39 @@ function generateFilesAndFolders(
 
       fs.writeFileSync(filePath, content);
     }
+    // }
   });
 }
 
 generateFilesAndFolders(data);
+
+function slugify(str) {
+  return str.toLowerCase().replace(/\s+/g, "-").replace(/\(|\)/g, "");
+}
+
+function createCategoryJson(filePath, folderData, index) {
+  // const jsonContent = JSON.parse(folderData);
+  // console.log(folderData.name);
+  // console.log(filePath);
+  const output = {
+    label: folderData.name,
+    position: index,
+    link: {
+      type: "generated-index",
+      description: "Sblach",
+    },
+  };
+  console.log(output);
+
+  fs.writeFileSync(
+    filePath,
+    JSON.stringify({
+      label: folderData.name,
+      position: index,
+      link: {
+        type: "generated-index",
+        description: "Sblach",
+      },
+    })
+  );
+}

@@ -11,13 +11,13 @@ This is the description of the CC Creator file.
 
 | Inlet | Values | Comments |  
 | --- | --- | --- |
-| Play Trigger | Trigger | Manually trigger or use clock |
+| tbd | tbd | tbd |
 
 ## Outlets
 
 | Outlet | Values | Comments |  
 | --- | --- | --- |
-| Audio Output L | -1, 1 | left audio output |
+| tbd | tbd | tbd |
 
 ## Parameters
 
