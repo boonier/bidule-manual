@@ -1,8 +1,1 @@
-{
-  "label": "Audio File (adv)",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "Advanced audio file players and buffers. Can be used to make loopers and delay effects."
-  }
-}
+{"label":"Audio File","position":0,"link":{"type":"generated-index","description":"Sblach"}}

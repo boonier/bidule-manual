@@ -1,8 +1,1 @@
-{
-  "label": "Building Blocks",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Low-level building blocks for Bidule."
-  }
-}
+{"label":"Building Blocks","position":1,"link":{"type":"generated-index","description":"Sblach"}}

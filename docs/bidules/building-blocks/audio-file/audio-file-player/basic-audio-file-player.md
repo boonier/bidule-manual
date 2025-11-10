@@ -1,33 +1,26 @@
 ---
 sidebar_label: "Basic Audio File Player"
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 # Basic Audio File Player
 
-## Description:
+Has 4 variants
 
-Audio file player with more flexibility. Useful for samplers and granular stuff.
+## Inlets
 
-## Inlets:
+| Inlet | Values | Comments |  
+| --- | --- | --- |
+| tbd | tbd | tbd |
 
-| Inlet          | Values              | Comments                           |
-| -------------- | ------------------- | ---------------------------------- |
-| Play Trigger   | Trigger             | Manually trigger or use clock      |
-| Play Gate      | 0, 1                | Gate bidule, or Note Extractor etc |
-| Play Position  | 0, (# of samples-1) | drive with Accum/ramp osc/envelope |
-| Play Amplitude | 0, 1                |                                    |
+## Outlets
 
-## Outlets:
+| Outlet | Values | Comments |  
+| --- | --- | --- |
+| tbd | tbd | tbd |
 
-| Outlet                     | Values | Comments |
-| -------------------------- | ------ | -------- |
-| Audio Output L             | -1, 1  |          |
-| Audio Output R             | -1, 1  |          |
-| # of samples in audio file |        |          |
-| Sample rate of audio file  |        |          |
+## Parameters
 
-## Parameters:
-
-- Add file(s) to Media Pool
-- Interpolation
+- param1
+- param2
+- param3
