@@ -9,15 +9,15 @@ This is the description of the WaveViewer 04 file.
 
 ## Inlets
 
-| Inlet | Values | Comments |
-| ----- | ------ | -------- |
-| tbd   | tbd    | tbd      |
+| Inlet | Values | Comments |  
+| --- | --- | --- |
+| tbd | tbd | tbd |
 
 ## Outlets
 
-| Outlet | Values | Comments |
-| ------ | ------ | -------- |
-| tbd    | tbd    | tbd      |
+| Outlet | Values | Comments |  
+| --- | --- | --- |
+| tbd | tbd | tbd |
 
 ## Parameters
 
